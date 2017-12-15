@@ -1,4 +1,4 @@
-package ru.sbt.mipt.oop;
+package ru.sbt.sensorEvent;
 
 public class SensorCommand {
     private final CommandType type;
@@ -10,10 +10,5 @@ public class SensorCommand {
     }
 
     @Override
-    public String toString() {
-        return "SensorCommand{" +
-                "type=" + type +
-                ", objectId='" + objectId + '\'' +
-                '}';
-    }
+    public String toString() {return "SensorCommand{" + "type=" + type + ", objectId='" + objectId + '\'' + '}';}
 }
